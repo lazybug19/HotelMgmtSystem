@@ -26,6 +26,19 @@ waiter.out
 admin.out
 hotelmanager.out
 ```
+## How to run?
+
+Upon executing the table process, enter a positive integer when prompted :
+```sh
+Enter Table Number:
+Enter Number of Customers at Table:
+```
+
+The table process will read the menu from the pre-created menu.txt file, and each customer process orders when prompted :
+```sh
+Enter the serial number(s) of the item(s) to order from the menu. Enter -1 when done:
+```
+
 ## Key Features
 <ul>
   <li> Can support 10+ concurrent table processes with 5+ customers in the system </li>
